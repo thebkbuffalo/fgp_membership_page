@@ -67,6 +67,10 @@ video#bgvid {
   cursor: pointer;
 }
 
+.navbar_inner li:hover {
+  color: gray;
+}
+
 .inactive {
   display: none;
 }
