@@ -18,6 +18,6 @@ $(document).ready(function(){
   });
 
   $('#mc-form').ajaxChimp({
-    url: 'http://thebottomdollars.us3.list-manage1.com/subscribe/post?u=4f577031b66cd993d3fdb6c30&id=59547b9b69'
+    url: 'http://freshgroundpeppernyc.us2.list-manage2.com/subscribe/post?u=892e622abd0c93d3a8eebff29&id=0d252f74c1'
 });
 });
