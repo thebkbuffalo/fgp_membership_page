@@ -16,4 +16,8 @@ $(document).ready(function(){
     $('#about').addClass('inactive');
     $('#membership').addClass('inactive');
   });
+
+  $('#mc-form').ajaxChimp({
+    url: 'http://thebottomdollars.us3.list-manage1.com/subscribe/post?u=4f577031b66cd993d3fdb6c30&id=59547b9b69'
+});
 });
