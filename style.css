@@ -1,0 +1,27 @@
+body {
+  background: black;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  font-size: 4em;
+}
+
+.subheader {
+  font-size: .5em;
+}
+
+.navbar {
+  color: white;
+}
+
+.navbar_inner {
+  font-size: .5em;
+  list-style: none;
+}
+
+.navbar_inner li {
+  display: inline-block;
+  padding: 5px .5em;
+}
