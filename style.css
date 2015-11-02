@@ -1,5 +1,10 @@
 body {
   background: black;
+  color: white;
+}
+
+p {
+  font-size: 25px;
 }
 
 .header {
@@ -24,4 +29,10 @@ body {
 .navbar_inner li {
   display: inline-block;
   padding: 5px .5em;
+  cursor: pointer;
+}
+
+
+.inactive {
+  display: none;
 }
