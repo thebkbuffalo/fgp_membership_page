@@ -23,6 +23,10 @@ h1 {
   font-size: 40px;
 }
 
+#hero {
+  height: 50%;
+}
+
 video#bgvid {
   position: fixed;
   top: 50%;
