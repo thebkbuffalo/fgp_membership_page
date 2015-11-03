@@ -22,6 +22,7 @@ $(document).ready(function(){
   // $('.continue').delay(1).fadeIn().css('display', 'block');
 
   $('.continue').on('click', function(){
+    $('video').prop('muted', true)
     $('#hero').hide(500);
     $('#main_content').css('display', 'block');
   });
