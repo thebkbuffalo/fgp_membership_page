@@ -24,8 +24,26 @@ h1 {
   font-size: 40px;
 }
 
+#main_content {
+  display: none;
+}
+
 #hero {
-  height: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.continue {
+  /*display: none;*/
+  color: black;
+  margin-top: 47%;
+  border: none;
+  border-radius: 3px;
+  width: 20em;
+  height: 3em;
+  background: white;
+  font-size: 20px;
+  font-family: 'Vollkorn', serif;
 }
 
 video#bgvid {
@@ -36,7 +54,7 @@ video#bgvid {
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: 100;
+  z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background: url(tiny_rick.jpg) no-repeat;
@@ -111,6 +129,10 @@ video#bgvid {
   font-size: 1em;
   height: 3em;
   width: 23em;
+  font-family: 'Vollkorn', serif;
+  border: none;
+  border-radius: 2px;
+  background: white;
 }
 
 .member_button:hover {
@@ -124,6 +146,7 @@ video#bgvid {
 
 #mailing_list {
   text-align: center;
+  margin-top: 1.5em;
 }
 
 #mc-form {
@@ -145,6 +168,7 @@ video#bgvid {
   border: none;
   border-radius: 5px;
   background: white;
+  font-family: 'Vollkorn', serif;
 }
 
 #mc-submit:hover {

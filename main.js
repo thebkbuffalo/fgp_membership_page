@@ -17,5 +17,12 @@ $(document).ready(function(){
 
   $('#mc-form').ajaxChimp({
     url: 'http://freshgroundpeppernyc.us2.list-manage2.com/subscribe/post?u=892e622abd0c93d3a8eebff29&id=0d252f74c1'
-});
+  });
+
+  // $('.continue').delay(1).fadeIn().css('display', 'block');
+
+  $('.continue').on('click', function(){
+    $('#hero').hide(500);
+    $('#main_content').css('display', 'block');
+  });
 });
