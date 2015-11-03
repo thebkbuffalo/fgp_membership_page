@@ -1,7 +1,5 @@
 $(document).ready(function(){
-  console.log('connected');
   $('.membership_nav').on('click', function(){
-    console.log('clicked membership');
     $('#membership').removeClass('inactive');
     $('#about').addClass('inactive');
     $('#mailing_list').addClass('inactive');

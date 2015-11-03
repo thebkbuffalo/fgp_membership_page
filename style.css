@@ -1,6 +1,7 @@
 body {
   background: black;
   color: white;
+  font-family: 'Vollkorn', serif;
 }
 
 p {
@@ -49,6 +50,14 @@ video#bgvid {
   margin-bottom: 2em;
 }
 
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header a:hover {
+  color: gray;
+}
 
 .navbar {
   text-align: center;
@@ -76,7 +85,36 @@ video#bgvid {
 }
 
 #membership {
+  padding: 1em;
   text-align: center;
+}
+
+#membership a {
+  text-decoration: none;
+  color: black;
+}
+
+#perk {
+  margin-top: .8em;
+}
+
+#perk h3 {
+  padding-bottom: .4em;
+}
+
+#perk p {
+  padding: .1em;
+}
+
+.member_button {
+  margin-top: 1.85em;
+  font-size: 1em;
+  height: 3em;
+  width: 23em;
+}
+
+.member_button:hover {
+  cursor: pointer;
 }
 
 #about {
@@ -86,4 +124,29 @@ video#bgvid {
 
 #mailing_list {
   text-align: center;
+}
+
+#mc-form {
+  margin-top: 1em;
+}
+
+#mc-email {
+  width: 40em;
+  height: 2.5em;
+  border: none;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+#mc-submit {
+  margin-top: 2em;
+  width: 27em;
+  height: 3em;
+  border: none;
+  border-radius: 5px;
+  background: white;
+}
+
+#mc-submit:hover {
+  cursor: pointer;
 }
