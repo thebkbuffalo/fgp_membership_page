@@ -77,6 +77,14 @@ video#bgvid {
   color: gray;
 }
 
+.left_logo {
+  float: left;
+}
+
+.right_logo {
+  float: right;
+}
+
 .navbar {
   text-align: center;
   color: white;
