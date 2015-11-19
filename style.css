@@ -85,6 +85,19 @@ video#bgvid {
   float: right;
 }
 
+.peppers_row {
+  height: 25em;
+  width: 65em;
+}
+
+#peppership_intro {
+  text-align: center;
+}
+
+.peppership_content {
+  margin: 1em 10em;
+}
+
 .navbar {
   text-align: center;
   color: white;
@@ -121,7 +134,9 @@ video#bgvid {
 }
 
 #perk {
-  margin-top: .8em;
+  padding: 2em;
+  margin: .8em 25em 0 25em;
+  border: 1px white solid;
 }
 
 #perk h3 {

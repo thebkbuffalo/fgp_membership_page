@@ -11,8 +11,8 @@
 <body>
   <div id="hero">
     <video autoplay loop poster="tiny_rick.jpg" id="bgvid">
-      <source class="video" src="rick_dance.webm" type="video/webm">
-      <source class="video" src="rick_dance.mp4" type="video/mp4">
+      <source class="video" src="peppership.webm" type="video/webm">
+      <source class="video" src="peppership.mp4" type="video/mp4">
     </video>
     <button class="continue">CONTINUE TO WEBSITE</button>
   </div>
@@ -28,42 +28,82 @@
     <hr>
     <div id="navbar">
       <div class="navbar_inner">
-        <li><h4 class="membership_nav">MEMBERSHIP</h4></li>
-        <li><h4 class="mailing_nav">MAILING LIST</h4></li>
+        <!-- <li><h4 class="membership_nav">MEMBERSHIP</h4></li>
+        <li><h4 class="mailing_nav">MAILING LIST</h4></li> -->
+        <img class="peppers_row" src="peppers_row.jpg">
       </div>
     </div>
     <hr>
+    <div id="peppership_intro">
+      <br/>
+      <h2>What Is Peppership?</h2>
+      <p class="peppership_content">
+        The Fresh Ground Peppership is FGP&rsquo;s new
+        membership platform. Fresh Ground Pepper
+        dedicates its mission to incubating new artistic work
+        and giving resources to the artists creating work in
+        New York City and around the country. By becoming
+        an annual member, you are sustaining a year’s worth
+        of programming that will give artists the chance to
+        engage deeply with their process and lead them to
+        their masterwork.<br/><br/>
+        Over the past 7 years, FGP has jumpstarted the
+        careers of hundreds of artists of all mediums working
+        in the field today. Join our membership and stand
+        in solidarity with our mission to help artists help
+        themselves.<br/><br/>
+        At any level of giving, you will be making a difference
+        for FGP&rsquo;s artists and their place the landscape of
+        American culture.
+      </p>
+    </div>
+    <hr>
       <!-- membership section -->
-      <div id="membership">
-        <div class="membership_header">
-          <h1>MEMBERSHIP</h1>
-        </div>
-        <div id="perks">
-          <div id="perk" class="tier1">
-            <h3>Pay X amount and you get</h3>
-            <li><p>Something cool</p></li>
-            <li><p>Somethign else cool</p></li>
-            <li><p>Something else different from before</p></li>
-          </div>
-          <div id="perk" class="tier2">
-            <h3>Pay X amount and you get</h3>
-            <li><p>Some cool shit</p></li>
-            <li><p>Some more cool shit</p></li>
-            <li><p>Win a monthly date with Neisler</p></li>
-          </div>
-          <div id="perk" class="tier3">
-            <h3>Pay THIS much and you'll get</h3>
-            <li><p>Babysit Luca while Karina and Taylor have a date night</p></li>
-            <li><p>Go on date night with Jaclyn and Andrew</p></li>
-            <li><p>Go on a date with Neisler and Jenny</p></li>
-          </div>
-        </div>
-        <!-- <button class="member_button"><a href="#" target="_blank">BECOME A MEMBER</a></button> -->
-        <a href="#" target="_blank"><button class="member_button">BECOME A MEMBER</button></a>
+    <div id="membership">
+      <div class="membership_header">
+        <h1>LEVELS</h1>
       </div>
+      <div id="perks">
+        <div id="perk" class="tier1">
+          <h3>Poblano Pepper</h3>
+          <li><p>$100 or $9/month in 2016</p></li>
+          <li><p>Somethign else cool</p></li>
+          <li><p>Something else different from before</p></li>
+        </div>
+        <div id="perk" class="tier2">
+          <h3>Jalapeno</h3>
+          <li><p>$250 or $22/month in 2016</p></li>
+          <li><p>Some more cool shit</p></li>
+          <li><p>Win a monthly date with Neisler</p></li>
+        </div>
+        <div id="perk" class="tier3">
+          <h3>Red Chili</h3>
+          <li><p>$50</p></li>
+          <li><p>Go on date night with Jaclyn and Andrew</p></li>
+          <li><p>Go on a date with Neisler and Jenny</p></li><br/>
+          <h3>Sweet Bell</h3>
+          <li><p>$20</p></li>
+          <li><p>description</p></li>
+        </div>
+        <div id="perk" class="tier4">
+          <h3>FGP Patron</h3>
+          <p>
+            Any donation $500 or above is considered
+            a PATRON LEVEL gift. Donors making gifts
+            of more then $500 receive benefits tailored
+            to the individual donor. Opportunities may
+            include any of the following below, or more:
+          </p>
+          <li><p>$500+</p></li>
+          <li><p>description</p></li>
+        </div>
+      </div>
+      <!-- <button class="member_button"><a href="#" target="_blank">BECOME A MEMBER</a></button> -->
+      <a href="#" target="_blank"><button class="member_button">BECOME A MEMBER</button></a>
+    </div>
 
       <!-- mailing list section -->
-      <div id="mailing_list" class="inactive">
+      <!-- <div id="mailing_list" class="inactive">
         <h1>JOIN OUR MAILING LIST OR DIE!!!!!</h1>
         <h3>enter your email and get the wild world of awesome that is FGP</h3>
         <form id="mc-form">
@@ -72,7 +112,7 @@
           <button id="mc-submit" type="submit">JOIN OUR MAILING LIST</button>
         </form>
       </div>
-    </div>
+    </div> -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
   <script src="mailchimp.js"></script>
