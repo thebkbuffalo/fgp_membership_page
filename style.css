@@ -8,6 +8,10 @@ p {
   font-size: 20px;
 }
 
+h5 {
+  font-size: 21px;
+}
+
 h4 {
   font-size: 25px;
 }
@@ -86,8 +90,8 @@ video#bgvid {
 }
 
 .peppers_row {
-  height: 25em;
-  width: 65em;
+  height: 27em;
+  width: 73em;
 }
 
 #peppership_intro {
@@ -144,7 +148,20 @@ video#bgvid {
 }
 
 #perk p {
-  padding: .1em;
+  padding: .35em;
+}
+
+.tier3_hr {
+  margin: 0 5em;
+}
+
+.netflix {
+  font-size: .95em;
+}
+
+.jenny_email {
+  color: white!important;
+  text-decoration: none;
 }
 
 .member_button {
