@@ -94,12 +94,17 @@ video#bgvid {
   width: 35em;
 }
 
-#peppership_intro {
+.what_is_pepper {
   text-align: center;
 }
 
+#peppership_intro {
+  text-align: justify;
+  text-align-last: justify;
+}
+
 .peppership_content {
-  margin: 1em 10em;
+  margin: 1em 18em;
 }
 
 .navbar {
@@ -155,10 +160,25 @@ video#bgvid {
   margin: 0 15em;
 }
 
+.levels_hr {
+  margin: .5em 42em -.5em 42em;
+}
+
 
 .homepage_link {
   font-size: .7em;
   color: gray!important;
+}
+
+.levels_logo {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.level_name {
+  display: inline-block;
+  /*margin: 0 0 -.5em .5em;*/
 }
 
 .netflix {
@@ -173,12 +193,12 @@ video#bgvid {
 .member_button {
   margin-top: 1.85em;
   font-size: 1em;
-  height: 3em;
-  width: 23em;
+  height: 2.8em;
+  width: 15em;
   font-family: 'Vollkorn', serif;
   border: none;
   border-radius: 2px;
-  background: white;
+  background: #FF304F;
 }
 
 .member_button:hover {
