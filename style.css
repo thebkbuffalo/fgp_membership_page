@@ -6,26 +6,32 @@ body {
 
 p {
   font-size: 20px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 h5 {
   font-size: 21px;
+  font-family: 'Arial Black', arial;
 }
 
 h4 {
   font-size: 25px;
+  font-family: 'Arial Black', arial;
 }
 
 h3 {
   font-size: 30px;
+  font-family: 'Arial Black', arial;
 }
 
 h2 {
   font-size: 35px;
+  font-family: 'Arial Black', arial;
 }
 
 h1 {
   font-size: 40px;
+  font-family: 'Arial Black', arial;
 }
 
 em {
