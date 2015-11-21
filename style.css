@@ -140,7 +140,7 @@ video#bgvid {
 #perk {
   padding: 2em;
   margin: .8em 25em 0 25em;
-  border: 1px white solid;
+  /*border: 1px white solid;*/
 }
 
 #perk h3 {
@@ -151,9 +151,10 @@ video#bgvid {
   padding: .35em;
 }
 
-.tier3_hr {
-  margin: 0 5em;
+.tier_hr {
+  margin: 0 15em;
 }
+
 
 .homepage_link {
   font-size: .7em;
