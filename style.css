@@ -90,8 +90,8 @@ video#bgvid {
 }
 
 .peppers_row {
-  height: 27em;
-  width: 73em;
+  height: 15em;
+  width: 35em;
 }
 
 #peppership_intro {
@@ -153,6 +153,11 @@ video#bgvid {
 
 .tier3_hr {
   margin: 0 5em;
+}
+
+.homepage_link {
+  font-size: .7em;
+  color: gray!important;
 }
 
 .netflix {
