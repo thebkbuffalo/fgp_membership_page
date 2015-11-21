@@ -28,6 +28,10 @@ h1 {
   font-size: 40px;
 }
 
+em {
+  font-style: italic;
+}
+
 #main_content {
   display: none;
 }
@@ -174,6 +178,16 @@ video#bgvid {
   display: inline-block;
   height: 40px;
   width: 40px;
+}
+
+.membership_card {
+  text-align: justify!important;
+  text-align-last: justify!important;
+}
+
+.contact_link {
+  color: white!important;
+  text-decoration: none;
 }
 
 .level_name {
